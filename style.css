@@ -1,0 +1,360 @@
+  * {
+     scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    /* font-weight: 500; */
+    font-size: 16px;
+    line-height: 1.8;
+    color: #3c3b3b;
+    letter-spacing: 0;
+    /* font-family: "proxima-nova", sans-serif; */
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+  /* CSS for main header */
+  .main_header {
+      background-image: url(/images/Banner-Image-Updated-Crope-withBG-color.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+  }
+
+  .main_content {
+      color: white;
+      font-size: 16px;
+  }
+
+  .main_heading h1 {
+      color: white;
+      font-size: 40px;
+      font-weight:700;
+      line-height: 52px;
+      /* line-height: 60px; */
+      font-family: 'Raleway', sans-serif;
+  }
+
+  .main-slider-btn {
+    text-align: inherit;
+    background-color: #b0c21f;
+    color: #fff;
+    line-height: 13px;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    min-height: 0;
+    min-width: 0;
+    line-height: 1.5;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: matrix(1,0,0,1,0,0);
+    transform-origin: 50% 50% 0;
+    border-radius: 3px;
+}
+
+.header-image {
+    position: relative;
+    top: 100px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.textbox p {
+    font-size: 16px;
+    color: #676666;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 29px;
+    font-weight: 700;
+    padding: 70px 0 0px;
+    margin: 0px 0 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.customer_app_heading {
+    padding-top: 0px;
+}
+
+h2 .blue-text {
+    color: #2879C9;
+}
+
+.img_customer_app {
+    width: 70%;
+    background-image: url(/images/Rectangle\ 8.svg);
+    background-repeat: no-repeat;
+}
+
+.challenge_image {
+    width: 80%;
+}
+
+h3 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.best_app_badge {
+    background-color: #effffb;
+    display: inline-block;
+    padding: 3px 10px 3px;
+    color: #08264A;
+}
+
+.read_more_button {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.read_more_button_content p{
+    margin-bottom: 0px;
+}
+
+.read_more_button p {
+    color: #97A1AC;
+}
+
+.read_more_button_content .read_more_text {
+    color: #2879C9;
+    margin-right: 5px;
+}
+
+.appointment_booking {
+    color: #2879C9;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0px 0 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.major-industries .overview_heading {
+    background-image: url(/images/Oval.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 430px;
+    background-position: center;
+    margin-top: 200px;
+}
+
+.major-industries .challenges_heading {
+    background-image: url(/images/Oval.svg);
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+}
+
+.major-industries .app_features_heading {
+    background-image: url(/images/Oval.svg);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position: center;
+}
+
+.major-industries .key_featuers_heading {
+    background-image: url(/images/Oval.svg);
+    background-repeat: no-repeat;
+    background-position-x: 400px;
+    background-position: center;
+}
+
+
+
+
+/* CSS for app features & solution */
+
+/* CSS for scroll functionality */
+.scrollfunction {
+    margin: 0;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    font-family: system-ui, sans-serif;
+  }
+  .sticky_nav {
+    height: 5700px;
+    /* margin-top: 500px; */
+    white-space: nowrap;
+    /* background: #37474F; */
+  }
+  .sticky_nav ul {
+    list-style: none;
+    margin: 0;
+    padding-top : 250px;
+  }
+  /* Only stick if you can fit */
+  @media (min-height: 300px) {
+    .sticky_nav ul {
+      position: sticky;
+      top: 0;
+    }
+  }
+  .sticky_nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #3c3b3c;
+    font-size: 27px;
+    font-weight: 400;
+  }
+  .sticky_nav ul li a.current {
+    /* background: black; */
+    border-bottom: 3px solid #B0C21F;
+    font-weight: 600;
+  }
+
+/* CSS for contact us section */
+.contactSection .tell-us-about {
+    font-size: calc(15.6px + .75vw);
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: Raleway,sans-serif;
+}
+
+.contactSection .contact-about-stats {
+    -js-display: flex;
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 570px;
+    height: 150px;
+    border: 1px solid #2879c9;
+    margin-bottom: 60px;
+    border-radius: 14px;
+}
+
+.contactSection .contact-about-stats .stat-item:not(:last-child) {
+    border-right: 1px solid #2879c9;
+}
+
+.contactSection .contact-about-stats .stat-item {
+    flex-basis: 33.33333%;
+    -js-display: flex;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    font-weight: 600;
+    text-align: center;
+    color: #2879c9;
+}
+
+.contactSection .contact-about-stats .stat-num {
+    display: block;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.contactSection .contact-about-stats .stat-desc {
+    display: block;
+    margin: 0 auto;
+    width: 96px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.contactSection .contact-about-stats .stat-item:not(:last-child) {
+    border-right: 1px solid #2879c9;
+}
+
+.contactSection .contact-about-stats .stat-item {
+    flex-basis: 33.33333%;
+    -js-display: flex;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    font-weight: 600;
+    text-align: center;
+    color: #2879c9;
+}
+
+.commonSection h1>span:not(.nocolor):not(.badge), .commonSection h2>span:not(.nocolor):not(.badge), .commonSection h3>span:not(.nocolor):not(.badge), .commonSection h4>span:not(.nocolor):not(.badge), .commonSection h5>span:not(.nocolor):not(.badge), .commonSection h6>span:not(.nocolor):not(.badge) {
+    color: #2878c8;
+}
+
+.contactSection .awards-reconition-text .header-text-blue {
+    font-size: calc(16.8px + .375vw);
+    font-weight: 700;
+    font-family: Raleway,sans-serif;
+}
+
+.contactSection .awards-reconition-text .header-text-blue {
+    font-size: calc(16.8px + .375vw);
+    font-weight: 700;
+    font-family: Raleway,sans-serif;
+}
+
+a {
+    text-decoration: none!important;
+    color: #2879c9;
+}
+
+a, button, input {
+    outline: 0!important;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+a {
+    text-decoration: none!important;
+    color: #2879c9;
+}
+
+.form-wrap__flexbox {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0.2rem 1rem 0 rgb(0 0 0 / 11%);
+    padding: 2rem 3rem 0rem 3rem;
+    width: 100%;
+}
+
+/* Popup Model */
+.popupflexbox {
+    padding: 2rem 3rem 0rem 3rem;
+}
+
+.conatctform-outer h2 {
+    font-size: calc(16.8px + .375vw);
+    font-weight: 600;
+    font-family: Raleway,sans-serif;
+}
+
+.conatctform-outer .removedpadding {
+    padding: 0 0 0;
+}
+
+.hubspot-link__container {
+    padding-bottom: 0px;
+}
+
+.btn-close {
+    background-color: white;
+border: 1px;
+color: grey;
+font-size: 20px;
+margin: -12px;
+font-weight: bolder;
+border-radius: 50px;
+box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+height: 35px;
+width: 35px;
+}
